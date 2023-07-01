@@ -77,12 +77,20 @@ padding: 0 1.5rem;
     color: var(--primary-color);
 }
 
-.section h1,p{
+.section{
     text-align: center;
 }
+/* .section h1,p,small{
+    text-align: center;
+} */
 .section{
     padding: 2rem;
 }
+.section-header{
+    
+    margin-bottom: 0px;
+}
+
 .ow{
     background-color: var(--off-white);
 }
