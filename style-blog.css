@@ -1,0 +1,45 @@
+ /* CSS styles */
+ body {
+    font-family: Arial, sans-serif;
+  }
+  img{
+    max-width: 50vw;
+    padding: 1rem;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .post {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+  .post h2 {
+    color: #333;
+  }
+  
+  .post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .post p {
+    line-height: 1.6;
+  }
+  
+  .post .meta {
+    color: #666;
+  }
