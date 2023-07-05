@@ -32,6 +32,7 @@ p{
     font-size:medium;
     border-radius:0.5rem;
     color:white;
+    text-decoration: none;
 }
 .links-secondary{
 color: var(--primary-color);
