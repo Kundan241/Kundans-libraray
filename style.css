@@ -64,6 +64,7 @@ padding: 0 1.5rem;
 }
 .link{
     color: white;
+    list-style: none;
 }
 .navigation .active-page{
     font-weight:bold;
