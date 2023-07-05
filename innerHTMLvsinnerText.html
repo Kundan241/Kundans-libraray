@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>innerHTMLvsinnerText</title>
+  <link rel="stylesheet" href="style-blog.css">
+</head>
+<body>
+  <header>
+    <h1>innerHTML vs innerText</h1>
+  </header>
+  <div class="container">
+    
+    <div class="post">
+      
+      <img src="img/html-css.svg" alt="html-css">
+      <p>The innerHTML and innerText properties are both used to manipulate the content of HTML elements in JavaScript, but they have some differences in how they work:
+
+        innerHTML: This property allows you to get or set the HTML content inside an element. It returns a string that represents the HTML markup contained within the element, including any HTML tags and their content. When setting the innerHTML, you can provide valid HTML markup that will be parsed and rendered within the element. 
+    </p>
+    
+        <strong>For example:</strong>
+
+      <img src="img/innerHTMLvsinnerText1.png" alt="">
+      
+      <p>
+        innerText: This property allows you to get or set the text content inside an element. It returns a string representing the visible text within the element, excluding any HTML tags. When setting the innerText, any existing HTML tags within the element are stripped and replaced with the provided plain text.
+      </p> 
+      <strong>For example:</strong>
+      <img src="img/innerHTMLvsinnerText2.png" alt="">
+        <hr>
+        In summary, innerHTML handles HTML content, including tags and their rendering, while innerText deals with plain text and ignores any HTML tags. Therefore, if you need to work with HTML markup, including tags and their rendering, you should use innerHTML. If you want to manipulate only the plain text content of an element, you can use innerText.
+   
+      <p class="meta">Published on July 2, 2023</p>
+    </div>
+    <!-- Add more blog posts as needed -->
+  </div>
+</body>
+</html>
