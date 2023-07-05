@@ -13,7 +13,7 @@ h1{
     color:var(--primary-color);
 }
 p{
-    width: 600px;
+   max-width: 50vw;
     display: block;
     margin: auto;
     padding: 2rem;
