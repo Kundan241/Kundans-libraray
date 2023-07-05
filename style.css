@@ -12,6 +12,12 @@ body{
 h1{
     color:var(--primary-color);
 }
+p{
+    width: 600px;
+    display: block;
+    margin: auto;
+    padding: 2rem;
+}
 
 .container-fluid{
     padding: 2rem 5rem;
