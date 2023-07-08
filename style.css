@@ -112,3 +112,6 @@ padding: 0 1.5rem;
 .footer-heading{
     font-size: larger;
 }
+footer ul{
+ padding-left: 0;
+}
