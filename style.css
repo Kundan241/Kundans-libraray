@@ -32,13 +32,14 @@ p{
     font-size:medium;
     border-radius:0.5rem;
     color:white;
-    text-decoration: none;
+    text-decoration: none; 
 }
 .links-secondary{
 color: var(--primary-color);
 border-radius: 0.5rem;
 padding:5px 4px;
 border: 1px solid var(--primary-color);
+text-decoration: none;
 }
 
 .list-no-bullet{
