@@ -7,14 +7,27 @@ body{
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     margin: 0%;
+   
     
 }
+/* try */
+
 
 :root{
+    --primary-color: #02aab0; /* Teal */
+    --secondary-color: #111817; /* Turquoise */
+    --off-white:#cbced2;
+}
+
+
+
+/* try */
+
+/* :root{
     --primary-color:#86198f;
     --grey-color:#a3a7af;
     --off-white:#d9dce1;
-}
+} */
 h1{
     color:var(--primary-color);
 }
@@ -85,7 +98,7 @@ padding: 0 1.5rem;
 }
 .hero .hero-header{
     text-align: center;
-    color: var(--grey-color);
+    color: var(--secondary-color);
     padding: 0.5rem;
 }
 .hero .highlighter{
